@@ -2,9 +2,7 @@
 'use strict';
 
 const meow = require('meow');
-const ghdownload = require('github-download')
 const updateNotifier = require('update-notifier');
-const exec = require('exec');
 const installer = require('./');
 
 const cli = meow([
@@ -26,8 +24,8 @@ if (command != 'new') {
 }
 
 if (! path) {
-	console.error('Specify a filepath');
-	process.exit(1);
+    console.error('Specify a filepath');
+    process.exit(1);
 }
 
 installer(path);
