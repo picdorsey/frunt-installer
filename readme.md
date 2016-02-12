@@ -9,7 +9,7 @@ $ npm install --global frunt-installer
 ```
 
 ```
-$ frunt-installer --help
+$ frunt --help
 
   Usage
     frunt new <path>
