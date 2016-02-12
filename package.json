@@ -5,8 +5,8 @@
   "license": "MIT",
   "repository": "picdorsey/frunt-installer",
   "author": {
-    "name": "Tyler O&#39;Donnell",
-    "email": "tylodonnell@gmail.com",
+    "name": "Tyler O'Donnell",
+    "email": "tyler.odonnell@picdorsey.com",
     "url": "picdorsey.com"
   },
   "bin": {

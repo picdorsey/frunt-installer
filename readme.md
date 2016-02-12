@@ -21,4 +21,4 @@ $ frunt --help
 
 ## License
 
-MIT © [Tyler O&#39;Donnell](http://picdorsey.com)
+MIT © [Piccirilli Dorsey](http://picdorsey.com)
