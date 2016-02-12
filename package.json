@@ -1,6 +1,6 @@
 {
   "name": "frunt-installer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs Frunt",
   "license": "MIT",
   "repository": "picdorsey/frunt-installer",
@@ -29,6 +29,7 @@
     "installer"
   ],
   "dependencies": {
+    "exec": "^0.2.1",
     "github-download": "^0.4.0",
     "is-directory": "^0.3.0",
     "meow": "^3.7.0",
