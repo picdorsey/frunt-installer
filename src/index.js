@@ -1,7 +1,7 @@
 'use strict';
 
-const ghdownload = require('github-download');
-const isdir = require('is-directory');
+import ghdownload from 'github-download';
+import isdir from 'is-directory';
 
 export default function (path) {
 
@@ -9,7 +9,7 @@ export default function (path) {
 
     	// Do not overwrite any directory
         if (dir) {
-            console.error('Error! Cannot install in a directory that exists')
+            console.error('Error! Cannot install in a directory that exists');
             process.exit(1);
         }
 
@@ -19,4 +19,4 @@ export default function (path) {
 
     });
 
-};
+}

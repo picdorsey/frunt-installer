@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 'use strict';
 
-const meow = require('meow');
-const updateNotifier = require('update-notifier');
-const installer = require('./');
+import meow from 'meow';
+import updateNotifier from 'update-notifier';
+import installer from './';
 
 const cli = meow([
 	'Usage',
