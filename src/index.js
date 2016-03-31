@@ -15,7 +15,7 @@ export default function (path) {
 
         // Download Frunt
         ghdownload('https://github.com/picdorsey/frunt.git', path)
-        	.on('end', () => console.log('Succesfully installed Frunt!'));
+            .on('end', () => console.log('Succesfully installed Frunt!'));
 
     });
 
